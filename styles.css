@@ -1,0 +1,97 @@
+/* ===== 1. Variables: la paleta de la marca ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap');
+
+
+:root {
+    --Naranja: #db4d00;
+    --negroNotanto: #141514;
+    --cafetal: #858782;
+    --fuente-titulos: "Space Grotesk", sans-serif;
+    --fuente-texto: "Inter", sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: var(--cafetal);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Tarjeta-identificacion {
+    font-family: var(--fuente-titulos);
+    width: 40em;
+    background-color: var(--negroNotanto);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lineaseparadora{
+    width: 100%;
+}
+
+.datos{
+    font-family: var(--fuente-texto);
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+.info{
+    font-size: large;
+    padding-left: 0px;
+    display: grid;
+    list-style: none;
+    color: #858782;
+    margin-top: 58px;
+    gap: 18.5px;
+}
+
+.fotoDatos{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1{
+    color: var(--cafetal);
+    text-align: center;
+
+}
+
+p{
+    color: #858782;
+}
+
+.fotoCredencial {
+    width: 250px;
+}
+
+footer{
+    text-align: center;
+}
+
+a{
+    color:#858782;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #db4d00;
+    text-decoration: underline;
+}
+
+i{
+    color:#db4d00
+}
+
+
+
+
+
+
